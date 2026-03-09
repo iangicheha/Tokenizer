@@ -1,5 +1,4 @@
 # Tokenizer
-A from-scratch implementation of a Byte Pair Encoding (BPE) tokenizer in Python — covering UTF-8 encoding, pair statistics, iterative merging, encode/decode, regex-based splitting, and GPT-2/GPT-4 tokenizer comparisons.
 BPE Tokenizer from Scratch
 A hands-on implementation of the Byte Pair Encoding (BPE) algorithm used in modern LLMs like GPT-2 and GPT-4.
 This notebook walks through building a tokenizer from the ground up — starting from raw Unicode text, encoding it as UTF-8 bytes, and iteratively merging the most frequent byte pairs to build a compact vocabulary. It also covers the full encode/decode pipeline, regex-based forced splits (as used in the GPT series), special tokens, and a side-by-side comparison with OpenAI's tiktoken library.
